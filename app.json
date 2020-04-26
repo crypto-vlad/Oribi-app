@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ORBI",
+    "slug": "orbi",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "orbi",
+    "ios": {
+      "splash": {
+        "image": "./src/assets/images/splash/splash.png",
+        "resizeMode": "cover"
+      },
+      "bundleIdentifier": "com.ios.orbi"
+    },
+    "android": {
+      "splash": {
+        "mdpi": "./src/assets/images/splash/splash-mdpi.png",
+        "hdpi": "./src/assets/images/splash/splash-hdpi.png",
+        "xhdpi": "./src/assets/images/splash/splash-xhdpi.png",
+        "xxhdpi": "./src/assets/images/splash/splash-xxhdpi.png",
+        "xxxhdpi": "./src/assets/images/splash/splash-xxxhdpi.png",
+        "resizeMode": "cover"
+      },
+      "package": "com.android.orbi"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": ""
+  }
+}
